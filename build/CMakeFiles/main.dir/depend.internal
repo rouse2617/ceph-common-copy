@@ -6,6 +6,7 @@ CMakeFiles/main.dir/Mutex.cc.o
  /home/hrp/ceph-common-copy/Mutex.h
 CMakeFiles/main.dir/Thread.cc.o
  /home/hrp/ceph-common-copy/Common.h
+ /home/hrp/ceph-common-copy/Mutex.h
  /home/hrp/ceph-common-copy/Thread.cc
  /home/hrp/ceph-common-copy/Thread.h
 CMakeFiles/main.dir/Timer.cc.o
@@ -20,4 +21,5 @@ CMakeFiles/main.dir/main.cc.o
  /home/hrp/ceph-common-copy/Cond.h
  /home/hrp/ceph-common-copy/Mutex.h
  /home/hrp/ceph-common-copy/Thread.h
+ /home/hrp/ceph-common-copy/Timer.h
  /home/hrp/ceph-common-copy/main.cc
