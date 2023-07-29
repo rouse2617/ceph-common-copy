@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/hrp/ceph-common-copy/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -O2 -pthread   -o CMakeFiles/main.dir/main.cc.o -c /home/hrp/ceph-common-copy/main.cc",
+  "file": "/home/hrp/ceph-common-copy/main.cc"
+},
+{
+  "directory": "/home/hrp/ceph-common-copy/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -O2 -pthread   -o CMakeFiles/main.dir/Thread.cc.o -c /home/hrp/ceph-common-copy/Thread.cc",
+  "file": "/home/hrp/ceph-common-copy/Thread.cc"
+},
+{
+  "directory": "/home/hrp/ceph-common-copy/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -O2 -pthread   -o CMakeFiles/main.dir/TImer.cc.o -c /home/hrp/ceph-common-copy/TImer.cc",
+  "file": "/home/hrp/ceph-common-copy/TImer.cc"
+},
+{
+  "directory": "/home/hrp/ceph-common-copy/build",
+  "command": "/usr/bin/g++-7    -std=c++11 -O2 -pthread   -o CMakeFiles/main.dir/Mutex.cc.o -c /home/hrp/ceph-common-copy/Mutex.cc",
+  "file": "/home/hrp/ceph-common-copy/Mutex.cc"
+}
+]

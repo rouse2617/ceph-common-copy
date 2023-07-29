@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cc.o"
   "CMakeFiles/main.dir/Thread.cc.o"
+  "CMakeFiles/main.dir/TImer.cc.o"
   "CMakeFiles/main.dir/Mutex.cc.o"
-  "CMakeFiles/main.dir/Timer.cc.o"
   "main.pdb"
   "main"
 )

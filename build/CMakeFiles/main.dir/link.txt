@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/main.dir/main.cc.o CMakeFiles/main.dir/Thread.cc.o CMakeFiles/main.dir/Mutex.cc.o CMakeFiles/main.dir/Timer.cc.o  -o main -lpthread 
+/usr/bin/g++-7  -std=c++11 -O2 -pthread   CMakeFiles/main.dir/main.cc.o CMakeFiles/main.dir/Thread.cc.o CMakeFiles/main.dir/TImer.cc.o CMakeFiles/main.dir/Mutex.cc.o  -o main 

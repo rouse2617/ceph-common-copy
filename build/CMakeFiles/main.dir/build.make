@@ -60,15 +60,15 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: ../main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/hrp/ceph-common-copy/main.cc
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/hrp/ceph-common-copy/main.cc
 
 CMakeFiles/main.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrp/ceph-common-copy/main.cc > CMakeFiles/main.dir/main.cc.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/main.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrp/ceph-common-copy/main.cc -o CMakeFiles/main.dir/main.cc.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/main.dir/main.cc.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/main.dir/main.cc.o.provides.build: CMakeFiles/main.dir/main.cc.o
 CMakeFiles/main.dir/Thread.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Thread.cc.o: ../Thread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Thread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Thread.cc.o -c /home/hrp/ceph-common-copy/Thread.cc
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Thread.cc.o -c /home/hrp/ceph-common-copy/Thread.cc
 
 CMakeFiles/main.dir/Thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Thread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrp/ceph-common-copy/Thread.cc > CMakeFiles/main.dir/Thread.cc.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/main.dir/Thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Thread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrp/ceph-common-copy/Thread.cc -o CMakeFiles/main.dir/Thread.cc.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/main.dir/Thread.cc.o.requires:
 
@@ -105,18 +105,42 @@ CMakeFiles/main.dir/Thread.cc.o.provides: CMakeFiles/main.dir/Thread.cc.o.requir
 CMakeFiles/main.dir/Thread.cc.o.provides.build: CMakeFiles/main.dir/Thread.cc.o
 
 
+CMakeFiles/main.dir/TImer.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/TImer.cc.o: ../TImer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/TImer.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/TImer.cc.o -c /home/hrp/ceph-common-copy/TImer.cc
+
+CMakeFiles/main.dir/TImer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/TImer.cc.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/main.dir/TImer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/TImer.cc.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/main.dir/TImer.cc.o.requires:
+
+.PHONY : CMakeFiles/main.dir/TImer.cc.o.requires
+
+CMakeFiles/main.dir/TImer.cc.o.provides: CMakeFiles/main.dir/TImer.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TImer.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/TImer.cc.o.provides
+
+CMakeFiles/main.dir/TImer.cc.o.provides.build: CMakeFiles/main.dir/TImer.cc.o
+
+
 CMakeFiles/main.dir/Mutex.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Mutex.cc.o: ../Mutex.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Mutex.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Mutex.cc.o -c /home/hrp/ceph-common-copy/Mutex.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Mutex.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Mutex.cc.o -c /home/hrp/ceph-common-copy/Mutex.cc
 
 CMakeFiles/main.dir/Mutex.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Mutex.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrp/ceph-common-copy/Mutex.cc > CMakeFiles/main.dir/Mutex.cc.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 CMakeFiles/main.dir/Mutex.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Mutex.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrp/ceph-common-copy/Mutex.cc -o CMakeFiles/main.dir/Mutex.cc.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/main.dir/Mutex.cc.o.requires:
 
@@ -129,44 +153,20 @@ CMakeFiles/main.dir/Mutex.cc.o.provides: CMakeFiles/main.dir/Mutex.cc.o.requires
 CMakeFiles/main.dir/Mutex.cc.o.provides.build: CMakeFiles/main.dir/Mutex.cc.o
 
 
-CMakeFiles/main.dir/Timer.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Timer.cc.o: ../Timer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Timer.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Timer.cc.o -c /home/hrp/ceph-common-copy/Timer.cc
-
-CMakeFiles/main.dir/Timer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Timer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hrp/ceph-common-copy/Timer.cc > CMakeFiles/main.dir/Timer.cc.i
-
-CMakeFiles/main.dir/Timer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Timer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hrp/ceph-common-copy/Timer.cc -o CMakeFiles/main.dir/Timer.cc.s
-
-CMakeFiles/main.dir/Timer.cc.o.requires:
-
-.PHONY : CMakeFiles/main.dir/Timer.cc.o.requires
-
-CMakeFiles/main.dir/Timer.cc.o.provides: CMakeFiles/main.dir/Timer.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Timer.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/Timer.cc.o.provides
-
-CMakeFiles/main.dir/Timer.cc.o.provides.build: CMakeFiles/main.dir/Timer.cc.o
-
-
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cc.o" \
 "CMakeFiles/main.dir/Thread.cc.o" \
-"CMakeFiles/main.dir/Mutex.cc.o" \
-"CMakeFiles/main.dir/Timer.cc.o"
+"CMakeFiles/main.dir/TImer.cc.o" \
+"CMakeFiles/main.dir/Mutex.cc.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cc.o
 main: CMakeFiles/main.dir/Thread.cc.o
+main: CMakeFiles/main.dir/TImer.cc.o
 main: CMakeFiles/main.dir/Mutex.cc.o
-main: CMakeFiles/main.dir/Timer.cc.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hrp/ceph-common-copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
@@ -179,8 +179,8 @@ CMakeFiles/main.dir/build: main
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Thread.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/TImer.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Mutex.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/Timer.cc.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

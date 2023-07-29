@@ -4,18 +4,12 @@
 CMakeFiles/main.dir/Mutex.cc.o: ../Mutex.cc
 CMakeFiles/main.dir/Mutex.cc.o: ../Mutex.h
 
-CMakeFiles/main.dir/Thread.cc.o: ../Common.h
+CMakeFiles/main.dir/TImer.cc.o: ../TImer.cc
+CMakeFiles/main.dir/TImer.cc.o: ../Timer.h
+
 CMakeFiles/main.dir/Thread.cc.o: ../Thread.cc
 CMakeFiles/main.dir/Thread.cc.o: ../Thread.h
 
-CMakeFiles/main.dir/Timer.cc.o: ../Common.h
-CMakeFiles/main.dir/Timer.cc.o: ../Cond.h
-CMakeFiles/main.dir/Timer.cc.o: ../Mutex.h
-CMakeFiles/main.dir/Timer.cc.o: ../Thread.h
-CMakeFiles/main.dir/Timer.cc.o: ../Timer.cc
-CMakeFiles/main.dir/Timer.cc.o: ../Timer.h
-
-CMakeFiles/main.dir/main.cc.o: ../Common.h
 CMakeFiles/main.dir/main.cc.o: ../Cond.h
 CMakeFiles/main.dir/main.cc.o: ../Mutex.h
 CMakeFiles/main.dir/main.cc.o: ../Thread.h

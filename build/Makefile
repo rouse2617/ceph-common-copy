@@ -150,6 +150,33 @@ Mutex.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Mutex.cc.s
 .PHONY : Mutex.cc.s
 
+TImer.o: TImer.cc.o
+
+.PHONY : TImer.o
+
+# target to build an object file
+TImer.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TImer.cc.o
+.PHONY : TImer.cc.o
+
+TImer.i: TImer.cc.i
+
+.PHONY : TImer.i
+
+# target to preprocess a source file
+TImer.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TImer.cc.i
+.PHONY : TImer.cc.i
+
+TImer.s: TImer.cc.s
+
+.PHONY : TImer.s
+
+# target to generate assembly for a file
+TImer.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TImer.cc.s
+.PHONY : TImer.cc.s
+
 Thread.o: Thread.cc.o
 
 .PHONY : Thread.o
@@ -176,33 +203,6 @@ Thread.s: Thread.cc.s
 Thread.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Thread.cc.s
 .PHONY : Thread.cc.s
-
-Timer.o: Timer.cc.o
-
-.PHONY : Timer.o
-
-# target to build an object file
-Timer.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Timer.cc.o
-.PHONY : Timer.cc.o
-
-Timer.i: Timer.cc.i
-
-.PHONY : Timer.i
-
-# target to preprocess a source file
-Timer.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Timer.cc.i
-.PHONY : Timer.cc.i
-
-Timer.s: Timer.cc.s
-
-.PHONY : Timer.s
-
-# target to generate assembly for a file
-Timer.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Timer.cc.s
-.PHONY : Timer.cc.s
 
 main.o: main.cc.o
 
@@ -243,12 +243,12 @@ help:
 	@echo "... Mutex.o"
 	@echo "... Mutex.i"
 	@echo "... Mutex.s"
+	@echo "... TImer.o"
+	@echo "... TImer.i"
+	@echo "... TImer.s"
 	@echo "... Thread.o"
 	@echo "... Thread.i"
 	@echo "... Thread.s"
-	@echo "... Timer.o"
-	@echo "... Timer.i"
-	@echo "... Timer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
